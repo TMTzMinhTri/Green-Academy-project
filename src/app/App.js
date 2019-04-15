@@ -1,8 +1,11 @@
 import React from 'react'
+import imgadasd from './banner.png'
 
 
 export default class App extends React.Component {
     render() {
-        return <div>Tran minh tri</div>
+        return <div>
+            <img src = {imgadasd} />
+        </div>
     }
 }
